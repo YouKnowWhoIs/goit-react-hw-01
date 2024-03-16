@@ -1,4 +1,4 @@
-// import { App } from "../../App.jsx";
+// import "./profile.module.css";
 
 export const Profile = ({ image, name, tag, location, stats }) => {
   return (

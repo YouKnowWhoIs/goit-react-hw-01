@@ -1,29 +1,26 @@
 import { Profile } from "./components/profile/profile.jsx";
-// import userData from "./userData.json";
+import { FriendList } from "./components/friends-list/friendsList.jsx";
+import { TransactionHistory } from "./components/history-tr/history-tr.jsx";
 
-const userData = {
-  username: "Jacques Gluke",
-  tag: "jgluke",
-  location: "Ocho Rios, Jamaica",
-  avatar: "https://cdn-icons-png.flaticon.com/512/2922/2922506.png",
-  stats: {
-    followers: 5603,
-    views: 4827,
-    likes: 1308,
-  },
-};
+import "./index.css";
 
-export const App = () => {
+import userData from "./userData.json";
+import friends from "./friends.json";
+import transactions from "./transactions.json";
+
+const App = () => {
   return (
     <>
-      {" "}
       <Profile
         name={userData.username}
         tag={userData.tag}
         location={userData.location}
         image={userData.avatar}
         stats={userData.stats}
-      />{" "}
+      />
+      <FriendList friends={friends} />
+      <TransactionHistory items={transactions} />
     </>
   );
 };
+export default App;
