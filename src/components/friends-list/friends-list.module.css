@@ -1,0 +1,28 @@
+.friends-table {
+  display: flex;
+  margin-bottom: 50px;
+  gap: 10px;
+}
+
+.friend {
+  border: 2px solid #040013;
+  background-color: #efefef;
+  border-radius: 5px;
+  padding: 15px 10px;
+  text-align: center;
+}
+
+.friend-name {
+  font-size: large;
+  margin-top: 5px;
+}
+
+.friend-online {
+  margin-top: 3px;
+  color: green;
+}
+
+.friend-offline {
+  margin-top: 3px;
+  color: red;
+}

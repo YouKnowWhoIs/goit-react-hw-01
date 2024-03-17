@@ -1,9 +1,7 @@
-// import "./history-tr.css";
-
 export const TransactionHistory = ({ items }) => {
   return (
-    <table>
-      <thead>
+    <table className="table-transactio">
+      <thead className="table-name">
         <tr>
           <th>Type</th>
           <th>Amount</th>
@@ -11,11 +9,11 @@ export const TransactionHistory = ({ items }) => {
         </tr>
       </thead>
 
-      <tbody>
+      <tbody className="">
         {items.map((item) => {
           return (
             <tr key={item.id}>
-              <td>{item.type}</td>
+              <td className="table-type-name">{item.type}</td>
               <td>{item.amount}</td>
               <td>{item.currency}</td>
             </tr>

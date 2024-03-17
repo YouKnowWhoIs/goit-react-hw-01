@@ -1,0 +1,70 @@
+.user {
+  text-align: center;
+  padding: 10px 20px 10px 20px;
+  width: 225px;
+  border: 2px solid #040013;
+  border-radius: 8px;
+  background-color: #efefef;
+  margin-bottom: 50px;
+}
+
+.user-avatar {
+  background-color: #2a2831;
+  border-radius: 100%;
+  margin-bottom: 5px;
+}
+
+.user-name {
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+
+.user-color-text {
+  color: #6e6d6f;
+}
+
+.user-contener-stats {
+  margin-top: 5px;
+  border: 2px solid #6e6d6f;
+  border-bottom: none;
+  border-left: none;
+  border-right: none;
+  background-color: #adacb0;
+  border-bottom-left-radius: 7px;
+  border-bottom-right-radius: 7px;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin-bottom: -10px;
+  display: flex;
+  text-align: center;
+}
+
+.user-one-conteiner-stats {
+  padding: 6px 0;
+  margin: 0 10px;
+}
+
+.user-one-conteiner-stats:first-child {
+  border: 2px solid #6e6d6f;
+  border-bottom: none;
+  border-top: none;
+  border-left: none;
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.user-one-conteiner-stats:last-child {
+  border: 2px solid #6e6d6f;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  padding: 6px 22px;
+}
+
+.user-stats-name {
+  display: flex;
+}
+
+.user-stats {
+  font-weight: 700;
+}

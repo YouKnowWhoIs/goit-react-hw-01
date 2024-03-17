@@ -1,27 +1,30 @@
-// import "./profile.module.css";
-
 export const Profile = ({ image, name, tag, location, stats }) => {
   return (
-    <div>
+    <div className="user">
       <div>
-        <img src={image} alt="User avatar" />
-        <p>{name}</p>
-        <p>@{tag}</p>
-        <p>{location}</p>
+        <img
+          src={image}
+          alt="User avatar"
+          className="user-avatar"
+          width="100"
+        />
+        <p className="user-name">{name}</p>
+        <p className="user-color-text">@{tag}</p>
+        <p className="user-color-text">{location}</p>
       </div>
 
-      <ul>
-        <li>
-          <span>Followers</span>
-          <span>{stats.followers}</span>
+      <ul className="user-contener-stats">
+        <li className="user-one-conteiner-stats">
+          <span className="user-stats-name">Followers</span>
+          <span className="user-stats">{stats.followers}</span>
         </li>
-        <li>
-          <span>Views</span>
-          <span>{stats.views}</span>
+        <li className="user-one-conteiner-stats">
+          <span className="user-stats-name">Views</span>
+          <span className="user-stats">{stats.views}</span>
         </li>
-        <li>
-          <span>Likes</span>
-          <span>{stats.likes}</span>
+        <li className="user-one-conteiner-stats">
+          <span className="user-stats-name">Likes</span>
+          <span className="user-stats">{stats.likes}</span>
         </li>
       </ul>
     </div>
