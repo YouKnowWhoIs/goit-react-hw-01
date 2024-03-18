@@ -11,18 +11,3 @@
   padding: 15px 10px;
   text-align: center;
 }
-
-.friend-name {
-  font-size: large;
-  margin-top: 5px;
-}
-
-.friend-online {
-  margin-top: 3px;
-  color: green;
-}
-
-.friend-offline {
-  margin-top: 3px;
-  color: red;
-}
