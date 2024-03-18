@@ -1,6 +1,6 @@
 @import url("./components/profile/profile.module.css");
-@import url("./components/friends-list/friends-list.module.css");
-@import url("./components/history-tr/history-tr.module.css");
+@import url("./components/friends-list/friendList.module.css");
+@import url("./components/history-tr/transactionHistory.module.css");
 
 body {
   font-family: "DM Sans", sans-serif;

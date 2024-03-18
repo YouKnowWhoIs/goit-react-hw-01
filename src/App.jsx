@@ -1,6 +1,6 @@
 import { Profile } from "./components/profile/profile.jsx";
-import { FriendList } from "./components/friends-list/friendsList.jsx";
-import { TransactionHistory } from "./components/history-tr/history-tr.jsx";
+import { FriendList } from "./components/friends-list/friendList.jsx";
+import { TransactionHistory } from "./components/history-tr/transactionHistory.jsx";
 
 import "./index.css";
 
